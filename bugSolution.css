@@ -1,0 +1,13 @@
+/* bugSolution.css */
+.container {
+  display: flex;
+  width: 300px;
+}
+
+.item {
+  background-color: lightblue;
+  margin-right: 10px; /* This margin is correctly applied */
+  flex-grow: 1;
+  /* max-width: calc(100% - 10px); /* Optional, ensure max width doesn't exceed */ 
+}
+/* Alternatively, you could use a different layout strategy to achieve similar results */
